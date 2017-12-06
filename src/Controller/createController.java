@@ -29,13 +29,14 @@ public class CreateController implements Initializable{
     }
 
     public void host1plusBtnClicked(ActionEvent actionEvent) {
+        //go to infopage
     }
 
     public void digitalOceanBtnClicked(ActionEvent actionEvent) {
+
     }
 
     public void backBtnClicked(ActionEvent actionEvent) {
-
         if(backButtonListener != null) {
             backButtonListener.backButtonClicked();
         }
